@@ -1,0 +1,48 @@
+.nav-pills .nav-link {
+    border-radius: 0% !important;
+    align-content: center !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: black !important;
+}
+
+
+
+nav {
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .logo-imagen img {
+            height: 83px;
+            padding: 0% !important;
+            margin-right: 5px;
+        }
+
+        .letras-logo {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+
+
+            .texto-principal {
+                font-size: xx-large;
+                font-family: "Azeret Mono", monospace !important;
+                color: black !important;
+            }
+
+            .texto-secundario {
+                font-size: medium;
+                font-family: "Azeret Mono", monospace !important;
+            }
+        }
+
+        .logo-imagen {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+}

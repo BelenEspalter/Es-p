@@ -1,12 +1,27 @@
-@import url(./base/fonts.scss);
-@import url(./base/reset.scss);
-@import url(./sections/nav.scss);
+@import './base/fonts.scss';
+@import './base/reset.scss';
+@import './sections/nav.scss';
 
 h1 {
-    color: #f20404 !important;
+    color: #211f1f !important;
     text-align: left;
     font-family: "Nunito Sans", sans-serif;
     font-size: 25px;
     margin-top: 10px;
     margin-left: 10px;
 }
+
+h3 {
+    margin-top: 5px;
+    padding-left: 8px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    color: #2d2d2d;
+}
+
+h4 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+

@@ -1,10 +1,57 @@
-@import url(./base/fonts.scss);
-@import url(./base/reset.scss);
-@import url(./sections/nav.scss);
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box; }
+
+.nav-pills .nav-link {
+  border-radius: 0% !important;
+  align-content: center !important; }
+
+.nav-pills .nav-link.active {
+  background-color: black !important; }
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  nav div .logo-imagen img {
+    height: 83px;
+    padding: 0% !important;
+    margin-right: 5px; }
+  nav div .letras-logo {
+    display: flex;
+    flex-direction: column;
+    margin: 5px; }
+    nav div .letras-logo .texto-principal {
+      font-size: xx-large;
+      font-family: "Azeret Mono", monospace !important;
+      color: black !important; }
+    nav div .letras-logo .texto-secundario {
+      font-size: medium;
+      font-family: "Azeret Mono", monospace !important; }
+  nav div .logo-imagen {
+    display: flex;
+    flex-direction: column; }
+
 h1 {
-  color: #f20404 !important;
+  color: #211f1f !important;
   text-align: left;
   font-family: "Nunito Sans", sans-serif;
   font-size: 25px;
   margin-top: 10px;
   margin-left: 10px; }
+
+h3 {
+  margin-top: 5px;
+  padding-left: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  color: #2d2d2d; }
+
+h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  color: #000000; }
