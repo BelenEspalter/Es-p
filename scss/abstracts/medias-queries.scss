@@ -1,0 +1,182 @@
+/*TABLET*/
+
+@media (max-width:992px) {
+
+    footer {
+        opacity: 20%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: small;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin-top: 4px !important;
+    }
+
+    h4 {
+        font-size: small;
+    }
+
+
+    main .grilla-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        column-gap: 10px;
+        margin: 10px;
+    }
+
+    main .grilla-nosotros img {
+        width: 100% !important;
+        margin-bottom: 5px;
+    }
+
+    div .fotos-fundadores img {
+        width: 175px !important;
+    }
+
+    main .grilla-nosotros p {
+        margin-top: 2px !important;
+        font-size: 15px;
+    }
+
+
+
+
+
+    .clientes-padre {
+        background-color: #d8d8d8 !important;
+    }
+
+    .clientes-padre div {
+        width: 45%;
+        margin: 5px;
+        background-color: #d8d8d8;
+        border: #000000 solid 2px !important;
+    }
+
+    .cards-clientes p {
+        font-size: 18px;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .cards-clientes h4 {
+        font-size: 20px;
+    }
+}
+
+/*MOBILE*/
+
+@media (max-width:576px) {
+
+    main .grilla-nosotros p {
+        margin-top: 2px !important;
+        padding: 8px;
+    }
+
+    main .grilla-nosotros {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        column-gap: 10px;
+        margin: 0;
+    }
+
+    main .grilla-nosotros img {
+        width: 100% !important;
+    }
+
+    div .fotos-fundadores img {
+        width: 180px !important;
+        padding: 5px;
+    }
+
+    footer {
+        opacity: 20%;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+        background-color: #2f2f2f;
+        color: white;
+        text-align: center;
+        padding: 2px;
+    }
+
+    h4 {
+        font-size: 10px !important;
+        padding: 8px;
+    }
+
+    .clientes-padre {
+        background-color: #d8d8d8 !important;
+
+        h4 {
+            font-size: 15px !important;
+            padding: 8px;
+        }
+    }
+
+    .clientes-padre div {
+        width: 100%;
+        margin: 5px;
+        background-color: #d8d8d8;
+        border: #000000 solid 2px !important;
+    }
+
+    .cards-clientes p {
+        font-size: small;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .cards-clientes h4 {
+        font-size: 20px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .contacto {
+        grid-template-columns: 1fr;
+        justify-content: first baseline;
+    }
+
+    .contacto .ubicacion {
+        width: 100%;
+    }
+
+    .contacto .ubicacion iframe {
+        padding-top: 8px;
+        width: 100%;
+    }
+
+
+    .contacto .fomulario {
+        width: 100%;
+    }
+
+    input {
+        width: 100px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+}

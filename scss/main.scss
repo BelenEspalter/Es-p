@@ -1,27 +1,12 @@
 @import './base/fonts.scss';
 @import './base/reset.scss';
 @import './sections/nav.scss';
-
-h1 {
-    color: #211f1f !important;
-    text-align: left;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-h3 {
-    margin-top: 5px;
-    padding-left: 8px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 15px;
-    color: #2d2d2d;
-}
-
-h4 {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 15px;
-    color: #000000;
-}
+@import './sections/footer.scss';
+@import './abstracts/components.scss';
+@import './abstracts/medias-queries.scss';
+@import './pages/index.scss';
+@import './pages/nosotros.scss';
+@import './pages/servicios.scss';
+@import './pages/clientes.scss';
+@import './pages/contacto.scss';
 

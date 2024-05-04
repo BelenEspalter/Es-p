@@ -1,0 +1,53 @@
+main {
+    .grilla-nosotros {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 10px;
+        margin: 10px;
+
+        img {
+            width: 306px;
+        }
+    }
+
+    .card-nosotros {
+        display: grid;
+        grid-area: auto;
+
+        img {
+            width: 140px;
+            display: inline-block;
+        }
+
+        h4 {
+            font-size: smaller;
+        }
+
+        .fotos-fundadores {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .arq {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+    h3 {
+        font-size: medium;
+        margin: 0%;
+    }
+
+    p {
+        font-size: smaller;
+        color: #000000;
+        height: auto;
+        overflow: hidden;
+    }
+
+}
+
