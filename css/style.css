@@ -96,14 +96,23 @@ button {
     grid-template-columns: repeat(2, 1fr) !important;
     column-gap: 10px;
     margin: 10px; }
-  main .grilla-nosotros img {
-    width: 100% !important;
-    margin-bottom: 5px; }
-  div .fotos-fundadores img {
-    width: 175px !important; }
-  main .grilla-nosotros p {
+    main .grilla-nosotros img {
+      width: 100% !important;
+      margin-bottom: 5px; }
+  main .card-nosotros {
+    display: grid;
+    grid-area: auto; }
+    main .card-nosotros img {
+      width: 175px !important;
+      display: inline-block; }
+    main .card-nosotros h4 {
+      font-size: smaller; }
+  main p {
     margin-top: 2px !important;
-    font-size: 15px; }
+    font-size: 15px;
+    color: #000000;
+    height: auto;
+    overflow: hidden; }
   .clientes-padre {
     background-color: #d8d8d8 !important; }
   .clientes-padre div {
@@ -120,19 +129,27 @@ button {
 
 /*MOBILE*/
 @media (max-width: 576px) {
-  main .grilla-nosotros p {
-    margin-top: 2px !important;
-    padding: 8px; }
   main .grilla-nosotros {
     display: grid;
     grid-template-columns: 1fr !important;
-    column-gap: 10px;
-    margin: 0; }
-  main .grilla-nosotros img {
-    width: 100% !important; }
-  div .fotos-fundadores img {
-    width: 180px !important;
-    padding: 5px; }
+    margin: 10px; }
+    main .grilla-nosotros img {
+      width: 100% !important;
+      margin-bottom: 5px; }
+  main .card-nosotros {
+    display: grid;
+    grid-area: auto; }
+    main .card-nosotros img {
+      width: 180px !important;
+      padding: 5px;
+      display: inline-block; }
+  main p {
+    margin-top: 2px !important;
+    padding: 8px;
+    font-size: 15px;
+    color: #000000;
+    height: auto;
+    overflow: hidden; }
   footer {
     opacity: 20%; }
   p {
@@ -147,7 +164,7 @@ button {
     text-align: center;
     padding: 2px; }
   h4 {
-    font-size: 10px !important;
+    font-size: 12px !important;
     padding: 8px; }
   .clientes-padre {
     background-color: #d8d8d8 !important; }
