@@ -95,8 +95,42 @@
     }
 
     /*TABLET - CONTACTO*/
+    main {
 
-}
+        .contacto {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr !important;
+            justify-content: first baseline;
+            padding: 8px;
+
+                iframe {
+                    width: 100% !important;
+                    padding-top: 8px;
+                    height: 10px;
+                }
+            }
+            p {
+                font-size: 12px!important;
+                padding: 2px;
+            }
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        input {
+            width: 100px;
+            font-size: 10px;
+        }
+
+        .form-check-label {
+            font-size: 12px !important;
+        }
+
+    }
+
 
 
 
@@ -184,15 +218,17 @@
                 align-items: center;
                 width: 100% !important;
                 padding: 12px;
+
                 h4 {
                     font-size: 15px;
                 }
+
                 p {
                     font-size: 8px !important;
                 }
             }
 
-        /*MOBILE - CONTACTO*/
+            /*MOBILE - CONTACTO*/
+        }
     }
-}
 }
