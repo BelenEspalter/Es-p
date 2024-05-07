@@ -1,5 +1,4 @@
 /*TABLET*/
-
 @media (max-width:992px) {
 
     footer {
@@ -23,7 +22,7 @@
         font-size: small;
     }
 
-
+    /*TABLET - NOSOTROS*/
     main {
         .grilla-nosotros {
             display: grid;
@@ -62,39 +61,76 @@
 
     }
 
+    /*TABLET - CLIENTES*/
+    main {
+        h1 {
+            background-color: #d8d8d8;
+            margin: 0%;
+            padding: 10px;
+        }
 
+        .clientes-padre {
+            background-color: #d8d8d8 !important;
 
+            div {
+                margin: 5px;
+                background-color: white;
+                border: #000000 solid 2px !important;
+            }
 
+            .cards-clientes {
+                width: 45% !important;
 
+                h4 {
+                    font-size: 20px;
+                }
 
-
-    .clientes-padre {
-        background-color: #d8d8d8 !important;
+                p {
+                    font-size: 18px !important;
+                    text-align: center;
+                    padding: 4px;
+                }
+            }
+        }
     }
 
-    .clientes-padre div {
-        width: 45%;
-        margin: 5px;
-        background-color: #d8d8d8;
-        border: #000000 solid 2px !important;
-    }
+    /*TABLET - CONTACTO*/
 
-    .cards-clientes p {
-        font-size: 18px;
-        text-align: center;
-        padding: 4px;
-    }
-
-    .cards-clientes h4 {
-        font-size: 20px;
-    }
 }
+
+
 
 /*MOBILE*/
 
 @media (max-width:576px) {
 
+    footer {
+        opacity: 20%;
+    }
 
+    p {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 20px;
+        background-color: #2f2f2f;
+        color: white;
+        text-align: center;
+        padding: 2px;
+    }
+
+    h4 {
+        font-size: 12px !important;
+        padding: 8px;
+    }
+
+    /*MOBILE - NOSOTROS*/
     main {
         .grilla-nosotros {
             display: grid;
@@ -127,91 +163,36 @@
             height: auto;
             overflow: hidden;
         }
-
     }
 
-
-    footer {
-        opacity: 20%;
-    }
-
-    p {
-        font-size: 15px;
-        padding: 8px;
-    }
-
-    h1 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 20px;
-        background-color: #2f2f2f;
-        color: white;
-        text-align: center;
-        padding: 2px;
-    }
-
-    h4 {
-        font-size: 12px !important;
-        padding: 8px;
-    }
-
-    .clientes-padre {
-        background-color: #d8d8d8 !important;
-
-        h4 {
-            font-size: 15px !important;
+    /*MOBILE - CLIENTES*/
+    main {
+        .clientes-padre {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100% !important;
             padding: 8px;
-        }
+
+            img {
+                width: 100% !important;
+            }
+
+            .cards-clientes {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100% !important;
+                padding: 12px;
+                h4 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 8px !important;
+                }
+            }
+
+        /*MOBILE - CONTACTO*/
     }
-
-    .clientes-padre div {
-        width: 100%;
-        margin: 5px;
-        background-color: #d8d8d8;
-        border: #000000 solid 2px !important;
-    }
-
-    .cards-clientes p {
-        font-size: small;
-        text-align: center;
-        padding: 4px;
-    }
-
-    .cards-clientes h4 {
-        font-size: 20px;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    .contacto {
-        grid-template-columns: 1fr;
-        justify-content: first baseline;
-    }
-
-    .contacto .ubicacion {
-        width: 100%;
-    }
-
-    .contacto .ubicacion iframe {
-        padding-top: 8px;
-        width: 100%;
-    }
-
-
-    .contacto .fomulario {
-        width: 100%;
-    }
-
-    input {
-        width: 100px;
-    }
-
-    textarea {
-        width: 350px;
-    }
-
+}
 }

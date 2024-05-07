@@ -91,6 +91,7 @@ button {
     margin-top: 4px !important; }
   h4 {
     font-size: small; }
+  /*TABLET - NOSOTROS*/
   main .grilla-nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -113,22 +114,46 @@ button {
     color: #000000;
     height: auto;
     overflow: hidden; }
-  .clientes-padre {
-    background-color: #d8d8d8 !important; }
-  .clientes-padre div {
-    width: 45%;
-    margin: 5px;
+  /*TABLET - CLIENTES*/
+  main h1 {
     background-color: #d8d8d8;
-    border: #000000 solid 2px !important; }
-  .cards-clientes p {
-    font-size: 18px;
-    text-align: center;
-    padding: 4px; }
-  .cards-clientes h4 {
-    font-size: 20px; } }
+    margin: 0%;
+    padding: 10px; }
+  main .clientes-padre {
+    background-color: #d8d8d8 !important; }
+    main .clientes-padre div {
+      margin: 5px;
+      background-color: white;
+      border: #000000 solid 2px !important; }
+    main .clientes-padre .cards-clientes {
+      width: 45% !important; }
+      main .clientes-padre .cards-clientes h4 {
+        font-size: 20px; }
+      main .clientes-padre .cards-clientes p {
+        font-size: 18px !important;
+        text-align: center;
+        padding: 4px; }
+  /*TABLET - CONTACTO*/ }
 
 /*MOBILE*/
 @media (max-width: 576px) {
+  footer {
+    opacity: 20%; }
+  p {
+    font-size: 15px;
+    padding: 8px; }
+  h1 {
+    font-size: 18px; }
+  h3 {
+    font-size: 20px;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 2px; }
+  h4 {
+    font-size: 12px !important;
+    padding: 8px; }
+  /*MOBILE - NOSOTROS*/
   main .grilla-nosotros {
     display: grid;
     grid-template-columns: 1fr !important;
@@ -150,54 +175,26 @@ button {
     color: #000000;
     height: auto;
     overflow: hidden; }
-  footer {
-    opacity: 20%; }
-  p {
-    font-size: 15px;
-    padding: 8px; }
-  h1 {
-    font-size: 18px; }
-  h3 {
-    font-size: 20px;
-    background-color: #2f2f2f;
-    color: white;
-    text-align: center;
-    padding: 2px; }
-  h4 {
-    font-size: 12px !important;
-    padding: 8px; }
-  .clientes-padre {
-    background-color: #d8d8d8 !important; }
-    .clientes-padre h4 {
-      font-size: 15px !important;
-      padding: 8px; }
-  .clientes-padre div {
-    width: 100%;
-    margin: 5px;
-    background-color: #d8d8d8;
-    border: #000000 solid 2px !important; }
-  .cards-clientes p {
-    font-size: small;
-    text-align: center;
-    padding: 4px; }
-  .cards-clientes h4 {
-    font-size: 20px; }
-  iframe {
-    width: 100%; }
-  .contacto {
-    grid-template-columns: 1fr;
-    justify-content: first baseline; }
-  .contacto .ubicacion {
-    width: 100%; }
-  .contacto .ubicacion iframe {
-    padding-top: 8px;
-    width: 100%; }
-  .contacto .fomulario {
-    width: 100%; }
-  input {
-    width: 100px; }
-  textarea {
-    width: 350px; } }
+  /*MOBILE - CLIENTES*/
+  main .clientes-padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100% !important;
+    padding: 8px;
+    /*MOBILE - CONTACTO*/ }
+    main .clientes-padre img {
+      width: 100% !important; }
+    main .clientes-padre .cards-clientes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100% !important;
+      padding: 12px; }
+      main .clientes-padre .cards-clientes h4 {
+        font-size: 15px; }
+      main .clientes-padre .cards-clientes p {
+        font-size: 8px !important; } }
 
 video {
   overflow: hidden;
@@ -255,7 +252,48 @@ main .clientes-padre {
     padding: 12px; }
     main .clientes-padre .cards-clientes h4 {
       margin-top: 5px;
-      color: #2d2d2d; }
+      color: #2d2d2d;
+      font-family: "Nunito Sans"; }
     main .clientes-padre .cards-clientes p {
       font-size: 15px !important;
       text-align: center; }
+
+main .contacto {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8px;
+  justify-items: center;
+  padding: 8px; }
+  main .contacto .ubicacion {
+    width: 100%; }
+  main .contacto .ubicacion iframe {
+    padding-top: 16px;
+    height: 400px;
+    width: 650px; }
+  main .contacto p {
+    font-size: 15px;
+    margin: 0% !important;
+    padding: 2px; }
+
+main textarea {
+  margin-top: 5px;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  border: transparent !important; }
+
+main input {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  border: transparent !important;
+  text-align: center; }
+
+main .formulario div {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between; }
+
+main .form-check-input:checked {
+  background-color: #222222 !important; }
