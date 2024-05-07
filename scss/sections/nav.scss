@@ -16,15 +16,15 @@ nav {
         justify-content: center;
 
         .logo-imagen img {
-            height: 83px;
+            height: 83px !important;
             padding: 0% !important;
-            margin-right: 5px;
+            margin-right: 5px !important;
         }
 
         .letras-logo {
-            display: flex;
-            flex-direction: column;
-            margin: 5px;
+            display: flex !important;
+            flex-direction: column !important;
+            margin: 5px !important;
 
 
             .texto-principal {
@@ -40,8 +40,8 @@ nav {
         }
 
         .logo-imagen {
-            display: flex;
-            flex-direction: column;
+            display: flex !important;
+            flex-direction: column !important;
         }
     }
 
