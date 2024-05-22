@@ -76,6 +76,119 @@ button {
   top: 85%;
   right: 25px; }
 
+body video {
+  overflow: hidden;
+  position: fixed;
+  height: 100%; }
+
+main .grilla-nosotros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  margin: 10px; }
+  main .grilla-nosotros img {
+    width: 306px; }
+
+main .card-nosotros {
+  display: grid;
+  grid-area: auto; }
+  main .card-nosotros img {
+    width: 140px;
+    display: inline-block; }
+  main .card-nosotros h4 {
+    font-size: smaller; }
+  main .card-nosotros .fotos-fundadores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  main .card-nosotros .arq {
+    display: flex;
+    justify-content: space-between; }
+
+main h3 {
+  font-size: medium;
+  margin: 0%; }
+
+main p {
+  font-size: smaller;
+  color: #000000;
+  height: auto;
+  overflow: hidden; }
+
+.carousel img {
+  height: 550px;
+  overflow: hidden; }
+
+.carousel h2 {
+  background-color: #ffffff;
+  font-size: 25px;
+  color: black;
+  padding: 10px !important;
+  text-align: center; }
+
+main .clientes-padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+  padding: 8px; }
+  main .clientes-padre img {
+    width: 100%; }
+  main .clientes-padre .cards-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 12px; }
+    main .clientes-padre .cards-clientes h4 {
+      margin-top: 5px;
+      color: #2d2d2d;
+      font-family: "Nunito Sans"; }
+    main .clientes-padre .cards-clientes p {
+      font-size: 15px !important;
+      text-align: center; }
+
+main .contacto {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8px;
+  justify-items: center;
+  padding: 8px; }
+  main .contacto .ubicacion {
+    width: 100%; }
+  main .contacto .ubicacion iframe {
+    padding-top: 16px;
+    height: 400px;
+    width: 650px; }
+  main .contacto p {
+    font-size: 15px;
+    margin: 0% !important;
+    padding: 2px; }
+
+main textarea {
+  margin-top: 5px;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  border: transparent !important; }
+
+main input {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  border: transparent !important;
+  text-align: center; }
+
+main .formulario div {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between; }
+
+main .form-check-input:checked {
+  background-color: #222222 !important; }
+
 /*TABLET*/
 @media (max-width: 992px) {
   footer {
@@ -225,117 +338,3 @@ button {
         font-size: 15px; }
       main .clientes-padre .cards-clientes p {
         font-size: 8px !important; } }
-
-body video {
-  overflow: hidden;
-  position: fixed;
-  height: 100%; }
-
-main .grilla-nosotros {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
-  margin: 10px; }
-  main .grilla-nosotros img {
-    width: 306px; }
-
-main .card-nosotros {
-  display: grid;
-  grid-area: auto; }
-  main .card-nosotros img {
-    width: 140px;
-    display: inline-block; }
-  main .card-nosotros h4 {
-    font-size: smaller; }
-  main .card-nosotros .fotos-fundadores {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-    margin-bottom: 5px; }
-  main .card-nosotros .arq {
-    display: flex;
-    justify-content: space-between; }
-
-main h3 {
-  font-size: medium;
-  margin: 0%; }
-
-main p {
-  font-size: smaller;
-  color: #000000;
-  height: auto;
-  overflow: hidden; }
-
-.carousel img {
-  height: 550px;
-  overflow: hidden;
-  border: green 2px dashed; }
-
-.carousel p {
-  background-color: #e3e3e3;
-  font-size: 15px;
-  color: black;
-  padding: 10px !important;
-  margin: 0% !important; }
-
-main .clientes-padre {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: auto;
-  padding: 8px; }
-  main .clientes-padre img {
-    width: 100%; }
-  main .clientes-padre .cards-clientes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    padding: 12px; }
-    main .clientes-padre .cards-clientes h4 {
-      margin-top: 5px;
-      color: #2d2d2d;
-      font-family: "Nunito Sans"; }
-    main .clientes-padre .cards-clientes p {
-      font-size: 15px !important;
-      text-align: center; }
-
-main .contacto {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 8px;
-  justify-items: center;
-  padding: 8px; }
-  main .contacto .ubicacion {
-    width: 100%; }
-  main .contacto .ubicacion iframe {
-    padding-top: 16px;
-    height: 400px;
-    width: 650px; }
-  main .contacto p {
-    font-size: 15px;
-    margin: 0% !important;
-    padding: 2px; }
-
-main textarea {
-  margin-top: 5px;
-  background-color: #d6d6d6;
-  border-radius: 10px;
-  border: transparent !important; }
-
-main input {
-  margin-top: 5px;
-  padding: 5px;
-  background-color: #d6d6d6;
-  border-radius: 10px;
-  border: transparent !important;
-  text-align: center; }
-
-main .formulario div {
-  margin: 5px;
-  display: flex;
-  justify-content: space-between; }
-
-main .form-check-input:checked {
-  background-color: #222222 !important; }

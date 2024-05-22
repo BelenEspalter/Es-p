@@ -2,15 +2,15 @@
     img {
         height: 550px;
         overflow: hidden;
-        border:  green 2px dashed; 
     }
 
-    p {
-        background-color: #e3e3e3;
-        font-size: 15px;
+    h2 {
+        background-color: #ffffff;
+        font-size: 25px;
         color: rgb(0, 0, 0);
         padding: 10px !important;
-        margin: 0% !important;
+        text-align: center;
+        $fuente_logo:"Azeret Mono", monospace !important;
     }
 
 }
