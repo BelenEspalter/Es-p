@@ -317,6 +317,15 @@ main .form-check-input:checked {
   .form-check-label {
     font-size: 12px !important; } }
 
+/*TABLET - INDEX*/
+h1 {
+  font-weight: 700;
+  font-size: 35px; }
+
+h2 {
+  font-weight: 200;
+  font-size: 25px; }
+
 /*MOBILE*/
 @media (max-width: 576px) {
   footer {
@@ -326,6 +335,9 @@ main .form-check-input:checked {
     padding: 8px; }
   h1 {
     font-size: 18px; }
+  h2 {
+    font-weight: 200;
+    font-size: 15px; }
   h3 {
     font-size: 20px;
     background-color: #2f2f2f;
@@ -361,6 +373,13 @@ main .form-check-input:checked {
   .carousel img {
     height: 100% !important;
     overflow: hidden; }
+  .carousel h2 {
+    font-size: 20px;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 0%; }
   /*MOBILE - CLIENTES*/
   main .clientes-padre {
     display: flex;
@@ -380,4 +399,4 @@ main .form-check-input:checked {
       main .clientes-padre .cards-clientes h4 {
         font-size: 15px; }
       main .clientes-padre .cards-clientes p {
-        font-size: 8px !important; } }
+        font-size: 12px !important; } }

@@ -64,7 +64,7 @@
     /*TABLET - SERVICIOS*/
     .carousel {
         img {
-            height:660px !important;
+            height: 660px !important;
             overflow: hidden;
         }
 
@@ -145,6 +145,20 @@
 
 }
 
+/*TABLET - INDEX*/
+
+
+
+
+h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 25px;
+}
 
 
 
@@ -163,6 +177,11 @@
 
     h1 {
         font-size: 18px;
+    }
+
+    h2 {
+        font-weight: 200;
+        font-size: 15px;
     }
 
     h3 {
@@ -213,13 +232,25 @@
         }
     }
 
-        /*MOBILE - SERVICIOS*/
-        .carousel {
-            img {
-                height:100% !important;
-                overflow: hidden;
-            }
+    /*MOBILE - SERVICIOS*/
+    .carousel {
+        img {
+            height: 100% !important;
+            overflow: hidden;
         }
+
+        h2 {
+
+            font-size: 20px;
+            background-color: #2f2f2f;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0%;
+
+        }
+
+    }
 
     /*MOBILE - CLIENTES*/
     main {
@@ -246,7 +277,7 @@
                 }
 
                 p {
-                    font-size: 8px !important;
+                    font-size: 12px !important;
                 }
             }
 
